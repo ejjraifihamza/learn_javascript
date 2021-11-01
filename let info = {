@@ -1,0 +1,12 @@
+let info = {
+    'name' : 'hamza',
+    age : 26,
+    gender : 'male'
+}
+console.log(info);
+console.log(info.name);
+console.log(info.age);
+console.log(info.gender);
+info.topSkills = 'javascript'
+console.log(info);
+

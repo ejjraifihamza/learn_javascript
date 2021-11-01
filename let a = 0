@@ -1,0 +1,30 @@
+let a = 0
+for(a; a <= 10; ++a){
+    console.log(a);
+}
+
+let myFriends = ['ahmed', 'yassin', 'achraf', 'rachid', 'said', 'ayoub']
+
+for (i = 0; i < myFriends.length; ++i){
+    console.log(myFriends[i]);
+}
+
+let myFriends = [1, 2, 3, 'ahmed', 'yassin', 'achraf', 'rachid', 'said', 'ayoub']
+let myFriends2 = []
+
+
+if (typeof myFriends[0] === 'string'){
+    myFriends2.push(myFriends[0])
+}
+
+if (typeof myFriends[1] === 'string'){
+    myFriends2.push(myFriends[1])
+}
+
+if (typeof myFriends[2] === 'string'){
+    myFriends2.push(myFriends[2])
+}
+
+if (typeof myFriends[3] === 'string'){
+    myFriends2.push(myFriends[3])
+}

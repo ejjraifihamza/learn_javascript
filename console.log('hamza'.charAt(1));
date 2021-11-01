@@ -1,0 +1,7 @@
+console.log('hamza'.charAt(1));
+console.log('hamza'[1]);
+
+console.log('a' < 'b');
+console.log('b' < 'c');
+
+console.log('hamza ejjraifi'[5]);

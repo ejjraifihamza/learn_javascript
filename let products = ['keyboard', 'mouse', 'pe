@@ -1,0 +1,16 @@
+let products = ['keyboard', 'mouse', 'pen', 'pad', 'monitor']
+let colors = ['green', 'red', 'silver']
+let models = [2021, 2020]
+
+
+for (i = 0; i < products.length; i++){
+    console.log(products[i]);
+    for(j = 0; j < colors.length; j++){
+        console.log(colors[j]);
+    }
+    for (m = 0; m < models.length; m++){
+        console.log(models[m]);
+    }
+}
+
+

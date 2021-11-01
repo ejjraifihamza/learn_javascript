@@ -1,0 +1,31 @@
+console.log(123 === 123.0);
+console.log(Number('123') === 123.0);
+console.log(typeof +'123');
+console.log(Number('hamza'));
+console.log(Number(undefined));
+console.log(Number(null));
+console.log(Number(''));
+console.log(Number(false));
+console.log(Number(true));
+
+console.log(Number.EPSILON);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MAX_VALUE > Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.MIN_VALUE);
+console.log(Number.MIN_VALUE > Number.MIN_SAFE_INTEGER);
+
+console.log(Number.NEGATIVE_INFINITY);
+console.log(Number.POSITIVE_INFINITY);
+console.log(Number.prototype);
+
+console.log(isNaN('hamza'));
+console.log(Number.isFinite(1/0));
+console.log(1/0);
+
+console.log(Number.isInteger(5/10));
+console.log(5/10);
+console.log(Number.isInteger(10/5));
+
+console.log(isNaN(Number.parseFloat('10')));
